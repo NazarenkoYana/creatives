@@ -1,0 +1,72 @@
+.about-agency {
+  background-color: #11749e;
+  text-align: center;
+  padding: 170px 0 120px 0;
+  position: relative;
+
+  img.w {
+    height: 176px;
+    width: 185px;
+    position: absolute;
+    top: 100px;
+    left: calc(100% - 50% - 92.5px);
+  }
+
+  p {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 0 140px 0;
+  }
+
+  .card {
+    background-color: transparent;
+    display: block;
+    text-align: center;
+    border: none;
+
+    .card-icon {
+      background-color: #2e85aa;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+
+      i {
+        color: #ffffff;
+        font-size: 34px;
+      }
+    }
+
+    .card-header {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 36px;
+      text-align: center;
+      color: #ffffff;
+      border: none;
+      background: transparent;
+      padding: 20px 0 25px 0;
+    }
+
+    .card-about {
+      font-size: 15px;
+      line-height: 24px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+  }
+
+  @include media-breakpoint-down(lg) {
+    .card:only-child {
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+

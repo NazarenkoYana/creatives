@@ -1,0 +1,55 @@
+.contact-area {
+  background: url("assets/images/contact-area.png") no-repeat top/100%;
+  padding: 215px 0 100px 0;
+  background-size: cover;
+
+  .contact-area-heading {
+    position: relative;
+    text-align: center;
+
+    img.c {
+      height: 182px;
+      width: 120px;
+      position: absolute;
+      top: -80px;
+      left: calc(100% - 50% - 60px);
+      object-fit: contain;
+    }
+
+    h4 {
+      font-size: 38px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 140px;
+    }
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    height: calc(1em + 1.876rem + 2px);
+    color: white;
+  }
+
+  .contact-area-button {
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  @include media-breakpoint-down(md) {
+    & {
+      padding: 100px 0;
+    }
+    .contact-area-heading h4 {
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+
+

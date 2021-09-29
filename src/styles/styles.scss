@@ -1,0 +1,23 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "header";
+@import "background-header";
+@import "buttons";
+@import "about-agency";
+@import "news-area";
+@import "blog-area";
+@import "quick-action-area";
+@import "key-feature";
+@import "team";
+@import "contact-area";
+@import "map";
+@import "footer";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+}
+
+

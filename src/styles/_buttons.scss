@@ -1,0 +1,31 @@
+button.btn.arrow {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #ffffff;
+
+  img {
+    height: 11px;
+    width: 18px;
+  }
+}
+
+button.btn.btn-success {
+  padding: 14px 60px;
+  font-size: 28px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+button.btn.btn-primary {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #11749e;
+  border: none;
+  padding: 18px 70px;
+  border-radius: 0;
+}

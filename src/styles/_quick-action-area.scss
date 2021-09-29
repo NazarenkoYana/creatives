@@ -1,0 +1,50 @@
+.quick-action-area {
+  background-color: #11749e;
+  padding: 148px 0;
+
+  .quick-action-area-content {
+
+    .quick-action-area-content-icons {
+      margin-right: 30px;
+
+      i {
+        font-size: 70px;
+        color: #ffffff;
+      }
+    }
+
+    .quick-action-area-content-desc {
+      p {
+        font-size: 15px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+
+  }
+
+  @include media-breakpoint-down(xl) {
+    .quick-action-area-content {
+      margin-bottom: 60px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .quick-action-area-content {
+      margin-bottom: 60px;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .quick-action-area-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .quick-action-area-content-icons{
+        margin-bottom: 20px;
+      }
+      .quick-action-area-content-desc p {
+        font-size: 12px;
+      }
+    }
+  }
+}
